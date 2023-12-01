@@ -28,6 +28,6 @@ jobs:
       - name: Call action from another repo
         uses: kochaika/test_action@master
         with:
-          dir: $GITHUB_WORKSPACE
+          dir: ./
           # entrypoint: python3 /LinksChecker/main.py --dir=$GITHUB_WORKSPACE
           
