@@ -25,6 +25,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Call action from another repo
         uses: kochaika/test_action@v1.0
-        with:
-          workflow_file_name: blank.yml
           
